@@ -1,6 +1,4 @@
 class Palindromo
-    def initialize
-    end
     def self.es_palindromo?(string)
         stringdos = string.downcase.gsub(" ","")
         stringuno = string.downcase.gsub(" ","").reverse
