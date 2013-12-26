@@ -1,0 +1,33 @@
+ investigar metodo que permita capitalizar un nombre # 20_DEC_2013.task
+ downcase
+ upcase
+ empty
+ gsub
+ split
+ gsub
+ %s(simbol)
+
+
+statement modifiers
+return x if true
+return x unless false
+case when when when
+investigar acerca de iteradores
+crear funcion que detecta un palindromo que no sea case sensitive
+establecer teclas para comentar en vim
+bloques teclas flechas en vim
+attr_reader para leer
+attr_accesor leer y escribir
+programming ruby y elocuent ruby libros de referencia
+git stash y git stash pop
+configurar gblamet
+Helpfull url to fix brew http://stackoverflow.com/questions/14113427/brew-update-failed
+url to download apple software https://developer.apple.com/downloads/index.action
+url helpfull to uninstall macports http://superuser.com/questions/367434/how-do-you-remove-macports-and-all-the-packages-it-has-installed
+Macports official url http://guide.macports.org/
+python official url http://www.python.org/
+task >> read about environmet vars in mac
+homebrew official url http://brew.sh/
+task >> done the fixbugs of brew doctor
+very interesting git book at http://www-cs-students.stanford.edu/~blynn/gitmagic/index.html
+

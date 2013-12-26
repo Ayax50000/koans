@@ -1,0 +1,20 @@
+    Para capitalizar todas las palabras de un string se usa lo siguiente
+        irb> foo = ""
+        "foo bar".split.each { |x| foo += x.capitalize + " " } 
+        # se realiza un split de "foo bar" que se muestra en x cada item del split y se va agregando al string foo
+    Para que se utiliza el metodo gsub de ruby
+        El metodo gsub sirve para remplazar carateres dentro de un string, recibe dos parametros (encontrar,remplazar) 
+    Cuales son los iteradores que maneja ruby
+     primero que nada un iterador es un metodo que permite recorrer todos los miembros de una coleccion
+       1.upto(5) { |number| puts number } 
+       # el iterador 1.upto(N) permite incrementar el valor self hasta N y mientras se incrementa va transfiriendo su
+       # valor a una variable que se encuentra dentro del bloque {|var_almacen| accion } y permite realizar acciones mientras
+       # los programadores pueden crear iteradores propios tambien hay otros iteradores como
+       x.each { |y| puts y }
+       %w{a e i o u}.each { |vowel| yield vowel }
+    Que son los code blocks
+        los bloques de codigo son sentencias encerradas en llaves que ruby asocia a un metodo iterador
+       codewars entrar
+       expresiones regulares
+       terminar programas de examenes
+
