@@ -14,7 +14,9 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
-  # WRITE THIS CODE
+  res = :nothig
+  res = ((a == b)&&(b == c))? :equilateral: (((a == b)||(b == c)||(c == a))? :isosceles : :scalene)
+  res
 end
 
 # Error class used in part 2.  No need to change this code.
